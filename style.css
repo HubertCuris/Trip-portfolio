@@ -17,6 +17,7 @@ body{
   border-radius: 25px;
   height: 100%;
   padding: 2rem;
+  padding-top: 1rem;
 }
 section {
   display: none;
@@ -30,8 +31,8 @@ header{
   top: 0;
 }
 nav ul{
-  border: 1px solid black;
-  border-radius: 25px;
+  /* border: 1px solid black;
+  border-radius: 25px; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -55,21 +56,17 @@ li > a:hover{
   background-color: whitesmoke;
 }
 /* MAIN */
-#glass{
-  overflow: scroll;
-  overflow-x: hidden;
-}
 section{
-  margin-top: 50px;
   padding: 15px;
   text-align: justify;
 }
-
-
-
-
-
-
+.text{
+  height: 465px;
+}
+.wrapText{
+  overflow: scroll;
+  overflow-x: hidden;
+}
 /* ScrollBar */
 ::-webkit-scrollbar{
   width: 12px;
